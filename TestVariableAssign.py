@@ -27,3 +27,13 @@ zsh: bad pattern: [apple,
 zsh: command not found: x,
 zsh: no matches found: print(x)
 brandon@Brandon-Mac VariableAssign %
+
+brandon@Brandon-Mac VariableAssign %
+x y z\
+    = "Orange", "Banana", "Cherry"
+x y z = fruits
+
+print(x)
+print(y)
+print(z)
+
